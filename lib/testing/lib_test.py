@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-from sequences import print_fibonacci
+from  lib.sequences import print_fibonacci
 
 import io
 import sys
 
 
 class TestPrintFibonacci:
-    '''function print_fibonacci()'''
+    '''Test function print_fibonacci()'''
 
     def test_print_fibonacci_zero(self):
         '''prints empty list when length = 0'''
